@@ -1,0 +1,20 @@
+﻿
+
+@{
+    ViewData["Title"] = "Task 2 ";
+}
+
+<h4>@ViewData["Title"]</h4>
+
+<div class="alert alert-primary">
+    <strong>Total Sales Before Discount: </strong> @ViewData["totalSalesBeforeDiscount"]
+</div>
+<div class="alert alert-success">
+    <strong>Total Sales  After Discount: </strong> @ViewData["totalSalesAfterDiscount"]
+</div>
+<div class="alert alert-warning">
+    <strong>Total Discount Lost: </strong> @ViewData["totalDiscountLost"]
+</div>
+<div class="alert alert-info">
+    <strong>Average Discount in %: </strong> @ViewData["totalDiscountPercentage"]
+</div>
